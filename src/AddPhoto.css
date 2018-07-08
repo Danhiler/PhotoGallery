@@ -1,6 +1,14 @@
 .addPhoto {
     width : 20%;
+    height: 200px;
     display:inline-block;
     border: 1px solid black;
     box-sizing: border-box;
+    background: url("https://png.icons8.com/ios/1600/add.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+
+}
+.hiddenField {
+    display: none;
 }

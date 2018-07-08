@@ -7,7 +7,6 @@ interface Iprops {
 class Photo extends React.Component<Iprops,{}> {
 
     public render() {
-        console.log(this.props.imgUrl)
         return (
 <img src={this.props.imgUrl} className="photo" />
     );

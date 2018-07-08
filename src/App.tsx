@@ -22,7 +22,6 @@ class App extends React.Component<any,Istate> {
   public render() {
     return (
       <div className="App">
-          {console.log("start",this.state.imgData)}
         <header className="App-header">
             <input type="button" onClick={this.clearData} />
           <img src={logo} className="App-logo" alt="logo" />
